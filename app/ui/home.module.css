@@ -1,0 +1,35 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-bottom: 10px;
+  }
+
+  .shapelr {
+    height: 0;
+    width: -1;
+    border-bottom: 30px solid transparent;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    margin:0;
+    margin-bottom: 10px;   
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    transform: rotate(90deg);
+  }
+  .shaperr {
+    height: 0;
+    width:  0;
+    border-bottom: 30px solid transparent;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    margin:0;
+    margin-bottom: 10px;    
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+    transform: rotate(-90deg);
+  }
